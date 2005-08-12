@@ -1,0 +1,33 @@
+BPhilCal is a tiny server script written in PHP
+for rendering a personalised concert calendar
+for concert subscribers of the
+Berlin Philharmonic Orchestra (BPO; Sir Simon Rattle)
+
+The user basically enters the alphabetical letters of his subscriptions
+such as "AEG" into an input form. The script then retrieves the
+concert information for subscription series A, E, G from the public
+available webpages of the Berlin Philharmonic Orchestra and
+presents all concerts in chronologically sorted order.
+
+Additional features:
+
+*	it detects and indicates "doublures", where a certain concert
+	is part of two or more subscribed series
+
+*	allows the user to select different output formats
+	short - medium - long
+	(the short format giving information one concert per line)
+
+*	renders conductor, componists/artist as links to www.wikipedia.org
+	depending on the chosen language to give quick information on demand
+
+*	links subscription letter and day to the corresponding web pages
+	of the Berlin Phliharmonic Orchestra (BPO)
+	http://www.berliner-philharmoniker.de
+
+V1.37	02.07.2005	first release
+V1.01	18.06.2005	initial version
+
+
+Installation requires webaccess to the script and a data subdirectory,
+which is used as a cache and for storing the acces count.
